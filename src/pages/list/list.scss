@@ -1,0 +1,57 @@
+page-list {
+
+}
+.buy-sell-tab{
+    padding: 20px 0;
+    text-align: center;
+    /*background: #1b1916;*/
+    background: #8ebdd4;
+    color: #fff;
+}
+
+.set-active{
+    border-bottom: 5px solid #2ec95c;
+    background: #3b7b9a;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.textbox-icon{
+    border: 1px solid #488aff;
+    color: #488aff;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #488aff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #488aff;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #488aff;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #488aff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #488aff;
+}
+
+.refresh-btn {
+    display: inline-block;
+    padding: 7px 10px;
+    border: 1px solid #488aff;
+    color: #488aff;
+    border-radius: 3px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+}

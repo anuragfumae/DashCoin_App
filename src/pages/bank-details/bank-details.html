@@ -1,0 +1,36 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Bank Details</ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding style="background: #000; color: #fff">
+    
+    <div class="row" style="margin: 0 -20px 0 -15px;">
+        <div class="width-33 buy-sell-tab" (click)="openPage('PancardVerificationPage')" >Pan Verification</div>
+        <div class="width-33 buy-sell-tab set-active">Bank Details</div>
+        <div class="width-33 buy-sell-tab" (click)="openPage('AddressDetailsPage')" >Address Details</div>
+    </div>
+    
+    <p class="m-t-xl">Bank account name and PAN Card name should be the same</p>
+    
+    <div class="m-t-xl">
+        <div><input type="text" placeholder="IFSC Code"></div>
+        <div><input type="text" placeholder="Bank Name"></div>
+        <div><input type="text" placeholder="Branch Name"></div>
+        <div><input type="text" placeholder="Account Holder Name"></div>
+        <div><input type="text" placeholder="Account Number"></div>
+        <div><input type="text" placeholder="Confirm Account Number"></div>
+    </div>
+    
+    <div class="m-t-lg pull-center">
+        <button ion-button outline item-end icon-right>
+            Next
+            <ion-icon name="arrow-round-forward"></ion-icon>
+        </button>
+    </div>
+</ion-content>

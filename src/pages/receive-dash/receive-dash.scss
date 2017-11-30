@@ -1,0 +1,41 @@
+page-receive-dash {
+
+    .icon-div{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #000;
+        font-size: 25px;
+        color: #fff;
+        text-align: center;
+        padding-top: 10px;
+        border: 1px solid #777;
+    }
+
+    .active-icon{
+        width: 70px !important;
+        height: 70px !important;
+        background: #32db64 !important;
+        font-size: 35px !important;
+        color: #343434 !important;
+        border: 3px solid #ddd !important;
+    }
+
+    .item-md.item-block .item-inner{
+        border: none;
+    }
+    ion-item{
+        background: #1c1c1c !important;
+    }
+
+    input{
+        width: 85%;
+        height: 50px;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 5px;
+        margin: auto;
+        color: #427feb;
+    }
+
+}

@@ -1,0 +1,36 @@
+
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Address Details</ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding style="background: #000; color: #fff">
+    <div class="row" style="margin: 0 -20px 0 -15px;">
+        <div class="width-33 buy-sell-tab" (click)="openPage('PancardVerificationPage')">Pan Verification</div>
+        <div class="width-33 buy-sell-tab" (click)="openPage('BankDetailsPage')">Bank Details</div>
+        <div class="width-33 buy-sell-tab set-active" >Address Details</div>
+    </div>
+    
+    
+    <p class="m-t-xl">To comply with new GST policy, we need your address details before you can buy or sell DashCoins</p>
+    
+    <div class="m-t-xl">
+        <div><input type="text" placeholder="Address Line 1"></div>
+        <div><input type="text" placeholder="Address Line 2"></div>
+        <div><input type="text" placeholder="City"></div>
+        <div><input type="text" placeholder="Select State"></div>
+        <div><input type="text" placeholder="Pincode"></div>
+    </div>
+    
+    <div class="m-t-lg pull-center">
+        <button ion-button outline item-end icon-right>
+           Submit
+            <ion-icon name="arrow-round-forward"></ion-icon>
+        </button>
+    </div>
+</ion-content>

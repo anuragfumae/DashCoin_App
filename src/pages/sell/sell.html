@@ -1,0 +1,46 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Sell DashCoins</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content style="background: #000; color: #fff">
+    <div class="row">
+        <div class="width-50 buy-sell-tab" (click)="goToBuyPage()">Buy</div>
+        <div class="width-50 buy-sell-tab set-active">Sell</div>
+    </div>
+
+    <div class="row">
+        <div class="pull-center" style="font-size: 20px; padding-top: 40px;">
+            <p style="border-bottom: 2px solid grey; padding-bottom: 5px;"><strong>DASH Balance : </strong> &nbsp; 0.000001 <i class="fa fa-try" aria-hidden="true"></i></p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="pull-center" style="font-size: 20px; padding-top: 30px;">
+            <p style="padding-bottom: 5px;"><strong>1 &nbsp; <i class="fa fa-try" aria-hidden="true"></i> &nbsp;= &nbsp; 2,75,097 &nbsp; <i class="fa fa-inr" aria-hidden="true"></i> </strong>
+                <span class="refresh-btn"><i class="fa fa-refresh" aria-hidden="true"></i></span>
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="pull-center" style="padding-top: 20px; position: relative;">
+            <input type="number" placeholder="enter amount" style="height: 50px; border-radius: 0px; padding: 0 40px 0 20px; color: #488aff; font-size: 18px; width:70%"><span style="font-size: 18px; margin-left: 7px; text-decoration: underline;color: #ffffff;">sell all</span>
+            <div class="textbox-icon"><i class="fa fa-try" aria-hidden="true" style="margin-top: 4px;"></i></div>
+        </div>
+        <p></p>
+    </div>
+
+    <div class="row">
+        <div class="pull-center" style="padding-top: 40px; position: relative;">
+            <button ion-button color="secondary" style="width: 100px; height: 50px; font-size: 20px;">Sell &nbsp; &nbsp; <i class="fa fa-try" aria-hidden="true"></i></button>
+            <p>( min: 1,000 <i class="fa fa-inr" aria-hidden="true"></i>, max 7,50,000 <i class="fa fa-inr" aria-hidden="true"></i> )</p>
+            <p style="margin-top: -5px;">For higher amounts, call 1860-233-0474</p>
+        </div>
+    </div>
+</ion-content>
+

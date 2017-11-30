@@ -1,3 +1,205 @@
 page-home {
+    
+    .toolbar-title-md, .bar-button-default-md{
+        color: #fff;
+    }
+    .buy-sell{
+        padding: 10px;
+        border: 1px solid #488aff;
+        width: 120px;
+        background: transparent;
+        font-size: 22px;
+        color: #488aff;
+        font-weight: 600;
+        border-radius: 2px;
+        margin-left: 20px;
+        margin-right: 20px;
+        box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    }
+    .buy-sell ion-icon{
+        font-size: 28px;
+        /*color: #fff;*/
+        color: #488aff;
+        position: relative;
+        top: 3px;
+        left: 2.5px;
+    }
+    .buy-sell span{
+        position: relative;
+        /*top: -4px;*/
+        padding-right: 10px;
+    }
+    .icon-span{
+        /*        background: #0088cc;
+                border-radius: 50%;
+                text-align: center;
+                padding: 3px 5px;
+                top:-1px !important;*/
+    }
+    .icon-div{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #fff;
+        font-size: 25px;
+        color: #488aff;
+        border: 1px solid #488aff;
+        box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    }
+    .icon-div i{
+        margin-top: 25%
+    }
+    .icon-div ion-icon{
+        margin-top: 20%;
+    }
 
+    .buy-sell1{
+        padding: 7px 10px;
+        border: 1px solid #488aff;
+        width: 100px;
+        background: #488aff;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 6px;
+        margin-left: 20px;
+        /*margin-right: 20px;*/
+        display: inherit;
+        box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    }
+    .buy-sell1 ion-icon{
+        position: relative;
+        top: 3px;
+        padding-left: 8px;
+    }
+    .foot-part{
+        background: #ddd;
+        height: 35%; 
+        margin-bottom: -18px;
+        margin-top: 40px;
+        color: #272626;
+    }
+    .foot-part p{
+        color: #272626;
+        margin-top: 5px;
+    }
+    .foot-part .icon-div{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #fff;
+        font-size: 25px;
+        color: #272626;
+        border: 1px solid #488aff;
+        margin-left: 35%;
+    }
+
+    p{
+        color: #908f8f;
+        font-size: 14px;
+    }
 }
+.width-30{
+    width: 30%;
+}
+.width-33{
+    width: 33%;
+}
+.width-50{
+    width: 50%;
+}
+.foot-width{
+    width: 43%;
+}
+.disp-inline{
+    display: inline;
+}
+.pull-center{
+    text-align: center;
+    margin: auto;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float:right;
+}
+
+.m-l-sm{
+    margin-left: 10px;
+}
+.m-l-md{
+    margin-left: 15px
+}
+.m-l-lg{
+    margin-left: 20px;
+}
+.m-l-xl{
+    margin-left: 30px;
+}
+.m-l-xxl{
+    margin-left: 40px;
+}
+
+.m-t-sm{
+    margin-top: 10px;
+}
+.m-t-md{
+    margin-top: 15px
+}
+.m-t-lg{
+    margin-top: 20px;
+}
+.m-t-xl{
+    margin-top: 30px;
+}
+.m-t-xxl{
+    margin-top: 40px;
+}
+
+.m-r-sm{
+    margin-right: 10px;
+}
+.m-r-md{
+    margin-right: 15px;
+}
+.m-r-lg{
+    margin-right: 20px;
+}
+.m-r-xl{
+    margin-right: 30px;
+}
+.m-r-xxl{
+    margin-right: 40px;
+}
+.m-l-45{
+    margin-left: 45px;
+}
+.pos-rel{
+    position: relative;
+}
+.font-20{
+    font-size: 20px;
+}
+
+.toolbar-background-md{
+    color: #fff;
+    background-color: #488aff;
+}
+.toolbar-title-md, .bar-button-default-md{
+    color: #fff;
+}
+
+ion-content{
+    background-image: url('/assets/images/bg5.jpg') !important;
+    /*font-family: 'Droid Serif', serif !important;*/
+}
+ion-header{
+    border-bottom: 1px solid #424642;
+    /*font-family: 'Droid Serif', serif !important;*/
+}
+.color-black{
+    color:#000;
+}
+
+
+
